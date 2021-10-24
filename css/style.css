@@ -1,0 +1,139 @@
+.container, a {
+	width: 1080px;
+	height: 1080px;
+	margin: auto;
+	color: white;
+	text-decoration: none;
+	padding: 0 20px;
+}
+
+header, main, footer {
+	padding: 30px 20px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Open Sans';
+}
+
+header, .hero, footer {
+	background-color: #1F2937;
+}
+
+header, nav ul {
+	padding-right: 2.5em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header figure {
+	padding-left: 5em;
+	display: flex;
+	align-items: center;
+}
+
+header figure figcaption {
+	padding: 0 15px;
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+header figure img {
+	border: 1px solid white;
+	border-radius: 20px;
+	background: white;
+	width: 100px;
+}
+
+header nav a, .hero .hero-text p {
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+header nav a:after {
+	content: ' \2197';
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+.hero {
+	padding: 3em 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-text, .hero-img {
+	max-width: 30em;
+}
+
+.hero .hero-text h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+.hero .hero-text button {
+	margin: 1em 0;
+	padding: 0.3em 0.8em;
+	color: white;
+	font-weight: 500;
+	background: #3882F6;
+}
+
+.hero .hero-img img {
+	width: 25em;
+}
+
+.info-field, .quote-field {
+	padding: 2em 0;
+	width: 100%;
+	height: 20em;
+	background: white;
+	color: black;
+	align-items: center;
+}
+
+.info-field h1 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+
+.info-field .information {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+.info {
+	width: 10em;
+	height: 10em;
+	padding-top: 2em;
+}
+
+.info img {
+	width: 10em;
+}
+
+.info figcaption {
+	padding-top: 20px;
+}
+
+.quote-field {
+	background-color: #E5E7EB;
+}
+
+.quote-field p {
+	font-size: 36px;
+	font-style: italic;
+	padding: 3em;
+	text-align: start;
+	color: #1F2937;
+	line-height: 1.1em;
+}
+
+.light {
+	font-weight: 100;
+}
